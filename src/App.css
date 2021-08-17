@@ -1,0 +1,25 @@
+.section {
+    height: 100vh;
+    background-color: #282c34;
+    color: #fff;
+    transition: .5s all linear;
+}
+
+.light_mode.section {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+.switch_btn {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    padding-top: 10px;
+
+}
